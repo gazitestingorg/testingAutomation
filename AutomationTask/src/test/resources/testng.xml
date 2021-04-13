@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AutomationSuite" verbose="1">
+
+    <test name="EmployeeServiceTests">
+        <parameter name="employeeId" value="1"></parameter>
+        <classes>
+            <class name="com.automation.testCases.EmployeeTestCases"/>
+        </classes>
+    </test>
+    <test name="AmazonSearchTests">
+        <classes>
+            <class name="com.automation.testCases.AmazonSearchPageTestCases"></class>
+        </classes>
+    </test>
+</suite>

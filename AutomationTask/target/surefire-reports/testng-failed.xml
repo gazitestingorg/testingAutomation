@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AutomationSuite]">
+  <test thread-count="5" verbose="0" name="EmployeeServiceTests(failed)">
+    <parameter name="employeeId" value="1"/>
+    <classes>
+      <class name="com.automation.testCases.EmployeeTestCases">
+        <methods>
+          <include name="verifyDeleteEmployeeResponseMsg" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="verifyEmployeeDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.automation.testCases.EmployeeTestCases -->
+    </classes>
+  </test> <!-- EmployeeServiceTests(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
